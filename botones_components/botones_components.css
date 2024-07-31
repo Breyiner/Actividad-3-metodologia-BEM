@@ -1,0 +1,39 @@
+.boton_salir, .boton_volver, .boton_anterior, .boton_siguiente{
+    width: 180px;
+    height: 40px;
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    background-color: rgb(234, 169, 72);
+    border-radius: 10px;
+    border: 2px solid #0000006d;
+    box-shadow: 0 0 10px #000;
+    text-decoration:none;
+    color: #421b06;
+    font-weight: bold;
+}
+
+.boton_salir:hover, .boton_volver:hover, .boton_anterior:hover, .boton_siguiente:hover {
+    background-color: #ad5423d0;
+}
+
+.boton_volver {
+    position: absolute;
+    left: 10px;
+}
+
+.boton_anterior {
+    position: absolute;
+    left: 10px;
+}
+
+.boton_siguiente{
+    position: absolute;
+    right: 10px;
+}
+
+.boton_salir {
+    position: absolute;
+    right: 10px;
+}
