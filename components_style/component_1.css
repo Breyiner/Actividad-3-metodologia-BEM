@@ -1,0 +1,89 @@
+.post_principal{
+    display: block;
+    position: relative;
+    margin: 20px auto;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    background-color: #000;
+    border-radius: 20px;
+}
+
+.contenedor__contenido {
+    display: inline-block;
+    text-align: right;
+    width: 65%;
+    padding: 10px;
+}
+
+
+.img__post {
+    width: 33%;
+    display: inline-block;
+    /* margin-right: 70px; */
+    border-radius: 30px;
+}
+
+.parrafo__post{
+    font-size: 14px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.creditos__post {
+    font-size: 12px;
+    color: #fff;
+}
+
+/*------------------------------------------*/
+
+.modifier--1:hover, .img--modifier--1{
+    background-color: #0000009d;
+    box-shadow: 0 0 10px #000;
+    transition: 0.5s;
+}
+
+
+/*-------------------------------------------*/
+
+.modifier--2 {
+    background-color: #0000003d;
+    border: 2px solid #000;
+}
+
+.img--modifier--2 {
+    box-shadow: 0 0 5px #000;
+}
+
+.contenido--modifier--2 {
+    filter: drop-shadow(1px 1px 2px #000);
+}
+
+/*-------------------------------------------*/
+.modifier--3 {
+    box-shadow: 0 0 5px #000;
+}
+
+.modifier--3:hover{
+    width: 410px;
+    height: 210px;
+    transition: 0.5s;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.img--modifier--3 {
+    box-shadow: 0 0 5px #fff;
+}
+
+/*--------------------------------------------*/
+
+.img--modifier--4 {
+    border-radius: 50%;
+    box-shadow: 0 3px 5px #fff;
+}
+
+.contenido--modifier--4:hover {
+    filter: drop-shadow(0 0 1px #fff);
+    transition: 1s;
+}
