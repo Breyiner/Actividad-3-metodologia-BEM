@@ -1,28 +1,27 @@
-
 .menu {
-    background-color: #333;
-    color: #fff;
+    background-color: var(--fondo-menu);
+    color: var(--blanco);
     width: 490px;
     margin: 10px auto;
-    text-align: center;
+    text-align: var(--centro);
 }
 
 .opcion__menu {
-    display: inline-block;
+    display: var(--bloque_enlinea);
     margin-right: 0;
 }
 
 .enlace__menu {
-    text-decoration: none;
+    text-decoration: var(--none);
     padding: 20px;
-    display: block;
-    color: #fff;
+    display: var(--bloque);
+    color: var(--blanco);
 }
 
 /*------------------------------------------------------*/
 
 .modifier--menu--1 {
-    background-color: rgb(48, 94, 94);
+    background-color: var(--fondo-verdementa2);
 }
 
 .modifier--enlace--1 {
@@ -30,39 +29,39 @@
 }
 
 .modifier--enlace--1:hover {
-    font-weight: bold;
+    font-weight: var(--negrilla);
     text-decoration: underline;
 }
 
 
 /*--------------------------------------------------------*/
 .modifier--menu--2 {
-    background-color: beige;
+    background-color: var(--fondo-beige);
 }
 
 .modifier--enlace--2{
-    color: #000;
+    color: var(--negro);
 }
 
 .modifier--enlace--2:hover ,.modifier--opcion--2:hover {
-    font-weight: bold;
-    color: #fff;
-    background-color: #000000;
-    filter: drop-shadow(0 0 3px #000);
+    font-weight: var(--negrilla);
+    color: var(--blanco);
+    background-color: var(--negro);
+    filter: drop-shadow(0 0 3px var(--negro));
 }
 
 
 /*--------------------------------------------------------*/
 
 .modifier--menu--3 {
-    background-color: #563f27;
+    background-color: var(--fondo-marron1);
     border-radius: 10px;
 }
 
 .modifier--enlace--3:hover ,.modifier--opcion--3:hover {
-    font-weight: bold;
-    background-color: #674622;
-    filter: drop-shadow(0 0 3px #000);
+    font-weight: var(--negrilla);
+    background-color: var(--fondo-marron2);
+    filter: drop-shadow(0 0 3px var(--negro));
     border-radius: 10px;
     transition: 0.5s;
 }
@@ -70,25 +69,25 @@
 
 /*-------------------------------------------------------*/
 .modifier--menu--4 {
-    background-color: #8e8e8e;
+    background-color: var(--fondo-gris1);
     border-radius: 10px;
 }
 
 .modifier--enlace--4 {
-    color: #fff;
+    color: var(--blanco);
 }
 
 .modifier--opcion--4:first-of-type {
-    background-color: #fcc03e;
+    background-color: var(--fondo-mostaza);
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    filter: drop-shadow(0 0 2px #000);
+    filter: drop-shadow(0 0 2px var(--negro));
 }
 
 .modifier--opcion--4:hover:not(:first-of-type) {
-    background-color: #656565;
-    color: #fff;
-    filter: drop-shadow(0 0 2px #000);
+    background-color: var(--fondo-gris2);
+    color: var(--blanco);
+    filter: drop-shadow(0 0 2px var(--negro));
 }
 
 .modifier--opcion--4:hover:last-of-type {

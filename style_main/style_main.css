@@ -2,18 +2,18 @@
     width: 400px;
     height: 50px;
     line-height: 50px;
-    display: block;
+    display: var(--bloque);
     margin: 50px auto;
-    text-align: center;
-    background-color: #eaa948;
-    text-decoration: none;
+    text-align: var(--centro);
+    background-color: var(--fondo_botones);
+    text-decoration: var(--none);
     border-radius: 20px;
-    color: #421b06;
-    border: 2px solid rgba(0, 0, 0, 0.514);
-    box-shadow: 0px 0px 5px #000;
-    font-weight: bold;
+    color: var(--letra_botones);
+    border: 2px solid var(--borde_botones);
+    box-shadow: 0px 0px 5px var(--negro);
+    font-weight: var(--negrilla);
 }
 
 .link_component:hover{
-    background-color: #ad5423d0;
+    background-color: var(--hover_botones);
 }

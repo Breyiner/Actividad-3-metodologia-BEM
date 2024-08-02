@@ -1,6 +1,6 @@
 header {
-    position: relative;
-    background-color: beige;
+    position: var(--position_relative);
+    background-color: var(--fondo_principal);
     height: 65px;
 }
 
@@ -8,39 +8,39 @@ header {
     width: 180px;
     height: 40px;
     margin-top: 10px;
-    display: inline-block;
-    text-align: center;
+    display: var(--bloque_enlinea);
+    text-align: var(--centro);
     line-height: 40px;
-    background-color: rgb(234, 169, 72);
+    background-color: var(--fondo_botones);
     border-radius: 10px;
-    border: 2px solid #0000006d;
-    box-shadow: 0 0 10px #000;
-    text-decoration:none;
-    color: #421b06;
-    font-weight: bold;
+    border: 2px solid var(--borde_botones);
+    box-shadow: 0 0 10px var(--negro);
+    text-decoration:var(--none);
+    color: var(--letra_botones);
+    font-weight: var(--negrilla);
 }
 
 .boton_salir:hover, .boton_volver:hover, .boton_anterior:hover, .boton_siguiente:hover {
-    background-color: #ad5423d0;
+    background-color: var(--hover_botones);
 }
 
 .boton_volver {
     margin-right: 0;
-    position: absolute;
+    position: var(--position_absolute);
     left: 10px;
 }
 
 .boton_anterior {
-    position: absolute;
+    position: var(--position_absolute);
     left: 10px;
 }
 
 .boton_siguiente{
-    position: absolute;
+    position: var(--position_absolute);
     right: 10px;
 }
 
 .boton_salir {
-    position: absolute;
+    position: var(--position_absolute);
     right: 10px;
 }

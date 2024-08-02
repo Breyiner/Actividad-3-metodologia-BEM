@@ -4,6 +4,7 @@
 @import url(components_style/component_3.css);
 @import url(components_style/component_4.css);
 @import url(botones_components/botones_components.css);
+@import url(variables/custom_propierties.css);
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Black+Han+Sans&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 * {
