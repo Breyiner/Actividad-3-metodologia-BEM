@@ -20,30 +20,30 @@
 
 /*------------------------------------------------------*/
 
-.modifier--menu--1 {
+.menu_modifier_1 {
     background-color: var(--fondo-verdementa2);
 }
 
-.modifier--enlace--1 {
+.enlace__menu--modifier-1 {
     font-size: 16px;
 }
 
-.modifier--enlace--1:hover {
+.enlace__menu--modifier-1:hover {
     font-weight: var(--negrilla);
     text-decoration: underline;
 }
 
 
 /*--------------------------------------------------------*/
-.modifier--menu--2 {
+.menu_modifier_2 {
     background-color: var(--fondo-beige);
 }
 
-.modifier--enlace--2{
+.enlace__menu--modifier-2{
     color: var(--negro);
 }
 
-.modifier--enlace--2:hover ,.modifier--opcion--2:hover {
+.enlace__menu--modifier-2:hover, .opcion__menu--modifier-2:hover {
     font-weight: var(--negrilla);
     color: var(--blanco);
     background-color: var(--negro);
@@ -53,12 +53,12 @@
 
 /*--------------------------------------------------------*/
 
-.modifier--menu--3 {
+.menu_modifier_3 {
     background-color: var(--fondo-marron1);
     border-radius: 10px;
 }
 
-.modifier--enlace--3:hover ,.modifier--opcion--3:hover {
+.enlace__menu--modifier-3:hover, .opcion__menu--modifier-3:hover {
     font-weight: var(--negrilla);
     background-color: var(--fondo-marron2);
     filter: drop-shadow(0 0 3px var(--negro));
@@ -68,29 +68,29 @@
 
 
 /*-------------------------------------------------------*/
-.modifier--menu--4 {
+.menu_modifier_4 {
     background-color: var(--fondo-gris1);
     border-radius: 10px;
 }
 
-.modifier--enlace--4 {
+.enlace__menu--modifier-4 {
     color: var(--blanco);
 }
 
-.modifier--opcion--4:first-of-type {
+.opcion__menu--modifier-4:first-of-type {
     background-color: var(--fondo-mostaza);
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     filter: drop-shadow(0 0 2px var(--negro));
 }
 
-.modifier--opcion--4:hover:not(:first-of-type) {
+.opcion__menu--modifier-4:hover:not(:first-of-type) {
     background-color: var(--fondo-gris2);
     color: var(--blanco);
     filter: drop-shadow(0 0 2px var(--negro));
 }
 
-.modifier--opcion--4:hover:last-of-type {
+.opcion__menu--modifier-4:hover:last-of-type {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }

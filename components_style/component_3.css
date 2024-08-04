@@ -18,11 +18,11 @@
 
 /*--------------------------------------------*/
 
-.bloque__acordeon.modifier--acordeon--1 {
+.bloque__acordeon--modifier-1 {
     width: 400px;
 }
 
-.titulo__acordeon.modifier--titulo--1:hover {
+.titulo__acordeon--modifier-1:hover {
     background-color: var(--fondo_modifier1);
     box-shadow: 0 0 5px var(--sombra_modifier1);
     transition: var(--duracion_05);
@@ -31,70 +31,70 @@
 /*---------------------------------------------*/
 
 
-.bloque__acordeon.modifier--acordeon--2 {
+.bloque__acordeon--modifier-2 {
     background-color: var(--fondo_beige3);
     border-color: var(--marron1);
 }
 
-.titulo__acordeon.modifier--titulo--2 {
+.titulo__acordeon--modifier-2 {
     border-color: var(--marron2);
 }
 
-.contenido__acordeon.modifier--contenido--2 {
+.contenido__acordeon--modifier-2 {
     background-color: var(--marron2);
 }
 
 /*-----------------------------------------------*/
 
-.bloque__acordeon.modifier--acordeon--3 {
+.bloque__acordeon--modifier-3 {
     background-color: var(--fondo_verde1);
 }
 
-.bloque__acordeon.modifier--acordeon--3:hover {
+.bloque__acordeon--modifier-3:hover {
     box-shadow: 0 0 5px var(--negro);
     transition: var(--duracion_05);
 }
 
-.titulo__acordeon.modifier--titulo--3:hover {
+.titulo__acordeon--modifier-3:hover {
     background-color: var(--fondo_verde2);
     color: var(--blanco);
     font-weight: var(--negrilla);
     transition: var(--duracion_05);
 }
 
-.contenido__acordeon.modifier--contenido--3 {
+.contenido__acordeon--modifier-3 {
     background-color: var(--fondo_beige4);
     text-align: justify;
 }
 
 /*-----------------------------------------------------*/
 
-.bloque__acordeon.modifier--acordeon--4 {
+.bloque__acordeon--modifier-4 {
     background-color: var(--fondo-amarillo1);
 }
 
-.bloque__acordeon.modifier--acordeon--4:hover {
+.bloque__acordeon--modifier-4:hover {
     box-shadow: 0 0 5px var(--negro);
     transition: var(--duracion_05);
 }
 
-.titulo__acordeon.modifier--titulo--4 {
+.titulo__acordeon--modifier-4 {
     font-weight: var(--negrilla);
 }
 
-.modifier--titulo--4:hover {
+.titulo__acordeon--modifier-4:hover {
     background-color: var(--fondo-amarillo2);
     filter: drop-shadow(0 0 5px var(--negro));
     color: var(--blanco);
     transition: var(--duracion_05);
 }
 
-.contenido__acordeon.modifier--contenido--4 {
+.contenido__acordeon--modifier-4 {
     background-color: var(--fondo-amarillo3);
     text-align: var(--centro);
 }
 
-.tira__acordeon.modifier--tira--4[open] .modifier--titulo--4 {
+.tira__acordeon--modifier-4[open] .titulo__acordeon--modifier-4 {
     background-color: var(--fondo-amarillo2);
     filter: drop-shadow(0 0 5px var(--negro));
     color: var(--blanco);

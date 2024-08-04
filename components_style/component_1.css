@@ -35,7 +35,7 @@
 
 /*------------------------------------------*/
 
-.post__principal.modifier--1:hover, .img__post.img--modifier--1{
+.post__principal--modifier-1:hover, .img__post--modifier-1{
     background-color: var(--fondo1_comp1);
     box-shadow: 0 0 10px var(--negro);
     transition: var(--duracion_05);
@@ -44,25 +44,25 @@
 
 /*-------------------------------------------*/
 
-.post__principal.modifier--2 {
+.post__principal--modifier-2 {
     background-color: var(--fondo2_comp1);
     border: 2px solid var(--negro);
 }
 
-.img__post.img--modifier--2 {
+.img__post--modifier-2 {
     box-shadow: 0 0 5px var(--negro);
 }
 
-.contenedor__contenido.contenido--modifier--2 {
+.contenedor__contenido--modifier-2 {
     filter: drop-shadow(1px 1px 2px var(--negro));
 }
 
 /*-------------------------------------------*/
-.post__principal.modifier--3 {
+.post__principal--modifier-3 {
     box-shadow: 0 0 5px var(--negro);
 }
 
-.post__principal.modifier--3:hover{
+.post__principal--modifier-3:hover{
     width: 410px;
     height: 210px;
     transition: var(--duracion_05);
@@ -70,18 +70,18 @@
     font-weight: var(--negrilla);
 }
 
-.img__post.img--modifier--3 {
+.img__post--modifier-3 {
     box-shadow: 0 0 5px var(--blanco);
 }
 
 /*--------------------------------------------*/
 
-.img__post.img--modifier--4 {
+.img__post--modifier-4 {
     border-radius: 50%;
     box-shadow: 0 3px 5px var(--blanco);
 }
 
-.contenedor__contenido.contenido--modifier--4:hover {
+.contenedor__contenido--modifier-4:hover {
     filter: drop-shadow(0 0 1px var(--blanco));
     transition: var(--duracion_1);
 }

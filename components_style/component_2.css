@@ -30,25 +30,25 @@
 
 /*--------------------------------------------*/
 
-.lista__componente.modifier--lista--1 {
+.lista__componente--modifier-1 {
     background-color: var(--fondo1_modifier1);
 }
 
-.item__lista.modifier--item--1:hover {
+.item__lista--modifier-1:hover {
     background-color: var(--fondo2_modifier1);
 }
 
 /*--------------------------------------------*/
 
-.lista__componente.modifier--lista--2 {
+.lista__componente--modifier-2 {
     background-color: var(--fondo1_modifier2);
 }
 
-.item__lista.modifier--item--2 {
+.item__lista--modifier-2 {
     border-color: var(--blanco);
 }
 
-.item__lista.modifier--item--2:hover {
+.item__lista--modifier-2:hover {
     background-color: var(--fondo2_modifier2);
     font-weight: var(--centro);
     text-align: var(--centro);
@@ -57,21 +57,21 @@
 
 /*--------------------------------------------*/
 
-.lista__componente.modifier--lista--3 {
+.lista__componente--modifier-3 {
     background-color: var(--blanco);
     text-align: var(--centro);
 }
 
-.item__lista.modifier--item--3 {
+.item__lista--modifier-3 {
     border: var(--none);
     border-bottom: 1px solid var(--negro);
 }
 
-.item__lista.modifier--item--3:last-of-type {
+.item__lista--modifier-3:last-of-type {
     border: var(--none);
 }
 
-.item__lista.modifier--item--3:hover {
+.item__lista--modifier-3:hover {
     background-color: var(--fondo1_modifier3);
     font-weight: var(--negrilla);
     transition: ease-in-out var(--duracion_05);
@@ -81,12 +81,12 @@
 
 /*--------------------------------------------*/
 
-.lista__componente.modifier--lista--4 {
+.lista__componente--modifier-4 {
     background-color: var(--fondo1_modifier4);
     box-shadow: 0 0 5px var(--negro);
 }
 
-.item__lista.modifier--item--4:hover {
+.item__lista--modifier-4:hover {
     border-right: 2px solid var(--negro);
     background-color: var(--fondo2_modifier4);
     color: var(--blanco);
