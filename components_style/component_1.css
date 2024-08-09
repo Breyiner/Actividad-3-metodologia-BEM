@@ -36,7 +36,7 @@
 /*------------------------------------------*/
 
 .post__principal--modifier-1:hover, .img__post--modifier-1{
-    background-color: var(--fondo1_comp1);
+    background-color: var(--fondo1_negro1);
     box-shadow: 0 0 10px var(--negro);
     transition: var(--duracion_05);
 }
@@ -45,7 +45,7 @@
 /*-------------------------------------------*/
 
 .post__principal--modifier-2 {
-    background-color: var(--fondo2_comp1);
+    background-color: var(--fondo2_negro1);
     border: 2px solid var(--negro);
 }
 
